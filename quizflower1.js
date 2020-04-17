@@ -170,16 +170,16 @@ var explains = [
 ]
 
 var pictures = [
-    "picture/IMG_2.jpg",
-    "picture/IMG_3.jpg",
-    "picture/IMG_4.jpg",
-    "picture/IMG_5.jpg",
-    "picture/IMG_6.jpg",
-    "picture/IMG_7.jpg",
-    "picture/IMG_8.jpg",
-    "picture/IMG_9.jpg",
-    "picture/IMG_10.jpg",
-    "picture/IMG_11.jpg"
+    "picture/IMG_2.JPG",
+    "picture/IMG_3.JPG",
+    "picture/IMG_4.JPG",
+    "picture/IMG_5.JPG",
+    "picture/IMG_6.JPG",
+    "picture/IMG_7.JPG",
+    "picture/IMG_8.JPG",
+    "picture/IMG_9.JPG",
+    "picture/IMG_10.JPG",
+    "picture/IMG_11.JPG"
 ]
 
 var coments = [
