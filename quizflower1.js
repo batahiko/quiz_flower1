@@ -116,7 +116,7 @@ function explain(answername,number){
                 anchor.className = 'twitter-hashtag-button';
                 result_twitter = "あなたのスコアは" + String(flowers.length) + "点満点中"+ String(answerpoint) + "点でした";
                 anchor.setAttribute('data-text',result_twitter);
-                anchor.innerText = 'Tweet #花の名前クイズ';
+                anchor.innerText = 'Tweet';
 
                 tweetDivided.appendChild(anchor);
 
