@@ -112,17 +112,19 @@ function explain(answername,number){
                    // ツイートエリアの作成
                 removeAllChildren(tweetDivided);
                 const anchor = document.createElement('a');
+                anchor.setAttribute('href',"https://twitter.com/share?ref_src=twsrc%5Etfw");
+
                 anchor.setAttribute('data-url', "https://batahiko.github.io/quizflower1/quizflower1.html");
                 result_twitter = "あなたのスコアは" + String(flowers.length) + "点満点中"+ String(answerpoint) + "点でした";
                 anchor.setAttribute('data-text',result_twitter);
-                anchor.innerText = 'この結果をツイートする';
+                anchor.className ="twitter-share-button";
+                anchor.innerText = 'Tweet';
 
                 tweetDivided.appendChild(anchor);
 
                 const script = document.createElement('script');
                 script.setAttribute('src', 'https://platform.twitter.com/widgets.js');
-                tweetDivided.appendChild(script)
-
+                tweetDivided.appendChild(script);
 
 
             }
