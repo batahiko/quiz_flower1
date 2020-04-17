@@ -113,7 +113,6 @@ function explain(answername,number){
                 removeAllChildren(tweetDivided);
                 const anchor = document.createElement('a');
                 anchor.setAttribute('data-url', "https://batahiko.github.io/quizflower1/quizflower1.html");
-                anchor.className = 'twitter-hashtag-button';
                 result_twitter = "あなたのスコアは" + String(flowers.length) + "点満点中"+ String(answerpoint) + "点でした";
                 anchor.setAttribute('data-text',result_twitter);
                 anchor.innerText = 'Tweet';
