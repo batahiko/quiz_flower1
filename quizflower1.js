@@ -115,7 +115,7 @@ function explain(answername,number){
                 anchor.setAttribute('data-url', "https://batahiko.github.io/quizflower1/quizflower1.html");
                 result_twitter = "あなたのスコアは" + String(flowers.length) + "点満点中"+ String(answerpoint) + "点でした";
                 anchor.setAttribute('data-text',result_twitter);
-                anchor.innerText = 'Tweet';
+                anchor.innerText = 'この結果をツイートする';
 
                 tweetDivided.appendChild(anchor);
 
