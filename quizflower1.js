@@ -112,9 +112,10 @@ function explain(answername,number){
                    // ツイートエリアの作成
                 removeAllChildren(tweetDivided);
                 const anchor = document.createElement('a');
-                const hrefValue = "https://twitter.com/intent/tweet?button_hashtag=花の名前クイズ&ref_src=twsrc%5Etfw"
+                const hrefValue = <a href="https://twitter.com/intent/tweet?button_hashtag=花の名前当てクイズ&ref_src=twsrc%5Etfw" class="twitter-hashtag-button"  
 
                 anchor.setAttribute('href', hrefValue);
+                anchor.setAttribute('data-url', "https://batahiko.github.io/quizflower1/quizflower1.html")
                 anchor.className = 'twitter-hashtag-button';
                 result_twitter = "あなたのスコアは" + String(flowers.length) + "点満点中"+ String(answerpoint) + "点でした";
                 anchor.setAttribute('data-text',result_twitter);
